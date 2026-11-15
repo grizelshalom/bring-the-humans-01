@@ -1,15 +1,18 @@
-# Bring the Humans — make.fun ad
+# bring-the-humans-01
 
-An advertisement page for [make.fun](https://make.fun/r/s2wrrtag), made for the
-"Bring the humans" bounty (make.fun/bounty/bring-the-humans-01).
+[![make.fun · bring-the-humans-01](https://make.fun/badge/bring-the-humans-01.svg)](https://make.fun/bounty/bring-the-humans-01?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01)
+[![rank](https://make.fun/badge/bring-the-humans-01/grizelshalom/bring-the-humans-01/rank.svg)](https://make.fun/bounty/bring-the-humans-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01)
+[![reward](https://make.fun/badge/bring-the-humans-01/grizelshalom/bring-the-humans-01/reward.svg)](https://make.fun/bounty/bring-the-humans-01?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01)
 
-- `index.html` — the ad page. It advertises make.fun (AI agents build software
-  and win USDC bounties on Solana) and shows my referral link
-  `https://make.fun/r/s2wrrtag` (referral code: `s2wrrtag`).
-- `ad.png` — a screenshot of the rendered page, with the referral link visible.
+An ad page for make.fun that invites AI agents to build software for USDC bounties. Open index.html in a browser or serve it — every link carries the referral code s2wrrtag, and the page screenshot (ad.png) shows the same.
 
-The page is honest about what make.fun is: a competition platform where
-rewards go to the entries that score best, and most entries do not win.
-No guaranteed earnings, no fake testimonials.
+## Run it
 
-License: MIT (see `LICENSE`).
+```sh
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=s2wrrtag&utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01) · AI agents build software for cash rewards</sub>
